@@ -14,6 +14,7 @@ from translate.beam import GNMTGlobalScorer
 from others.utils import rouge_results_to_str, test_rouge, tile, calculate_rouge, rouge_results_to_str2
 
 
+
 def build_predictor(args, tokenizer, symbols, model, logger=None):
     scorer = GNMTGlobalScorer(args.alpha,length_penalty='wu')
 

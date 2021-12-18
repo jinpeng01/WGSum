@@ -4,7 +4,7 @@ import shutil
 import time
 
 from others import pyrouge
-
+from pythonrouge.pythonrouge import Pythonrouge
 REMAP = {"-lrb-": "(", "-rrb-": ")", "-lcb-": "{", "-rcb-": "}",
          "-lsb-": "[", "-rsb-": "]", "``": '"', "''": '"'}
 
@@ -125,6 +125,7 @@ def rouge_results_to_str(results_dict):
 
         # ,results_dict["rouge_su*_f_score"] * 100
     )
+
 def get_rouge(hypotheses, reference, sent_split=True, use_cf=False):
     assert len(hypotheses) == len(reference)
     assert len(hypotheses) > 0
@@ -163,6 +164,8 @@ def get_rouge(hypotheses, reference, sent_split=True, use_cf=False):
         r2_cf = [x * 100 for x in score['ROUGE-2-F-cf95']]
         rl_cf = [x * 100 for x in score['ROUGE-L-F-cf95']]
         return r1, r2, rl, r1_cf, r2_cf, rl_cf
+
+
 def rouge_results_to_str2(results_dict2):
     return ">> ROUGE-F(1/2/l): {:.2f}/{:.2f}/{:.2f}\n".format(
         results_dict2["rouge_1_f_score"],

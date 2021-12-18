@@ -1,22 +1,23 @@
 
-Model_path=transformer_mimic_model_GB_GT
+Model_path=transformer_openi_model
 
-gpus=4,5,6,7
+# gpus=4,5,6,7
+gpus=4
 log_file=$Model_path.log
-
+DATA_PATH=../bert_openI/radiology/radiology
 
 python train.py \
 -mode train -accum_count 5 \
 -batch_size 300 \
--bert_data_path DATA_PATH \
+-bert_data_path $DATA_PATH \
 -dec_dropout 0.1 \
 -log_file ../logs/$log_file \
 -lr 0.05 \
 -model_path $Model_path \
--save_checkpoint_steps 2000 \
+-save_checkpoint_steps 200 \
 -seed 777 \
 -sep_optim false \
--train_steps 50000 \
+-train_steps 20000 \
 -use_bert_emb true \
 -use_interval true \
 -warmup_steps 8000  \
@@ -34,7 +35,8 @@ python train.py \
 -task abs
 
 
-Model_path=transformer_mimic_model_GB_GT
+
+Model_path=transformer_openi_model
 echo $Model_path
 log_file2=$Model_path.testlog
 result_file=$Model_path.result
