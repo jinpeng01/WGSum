@@ -1,5 +1,5 @@
 # WGSUM
-Code for ACL 2021 paper: *[Word Graph Guided Summarization for Radiology Findings]*
+Code for findings of ACL 2021 paper: *[Word Graph Guided Summarization for Radiology Findings]*
 
 ==========
 
