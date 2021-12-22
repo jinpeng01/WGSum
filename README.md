@@ -3,7 +3,7 @@ Code for findings of ACL 2021 paper: *[Word Graph Guided Summarization for Radio
 
 ==========
 
-This repo contains the code following [this code](https://github.com/nlpyang/PreSumm)
+This repo contains the code following [PreSumm](https://github.com/nlpyang/PreSumm)
 
 ## Requirements
 
