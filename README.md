@@ -12,9 +12,10 @@ This repo contains the code following [PreSumm](https://github.com/nlpyang/PreSu
 
 ## Data
 
-We give an example `about` the data in the `graph_construction/`
+We give an example `about` the data in the `graph_construction/`.
 
 ### Preparation
+Remain to be origanized. Some of the code needs to be debug, plz use it carefully.
 
 
 #### Graph Construction

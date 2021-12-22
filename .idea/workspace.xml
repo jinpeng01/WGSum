@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7cb5570e-a0d6-4b54-a385-9f687abdc332" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="ebfeec11-d9c3-4418-b00d-1ac0d868ba26" />
+  <component name="ProjectId" id="22S6FLDfe4oN9Dy4BQymiGR6Alo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/checkpint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/checkpint" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.graph_construction">
+    <configuration name="graph_construction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="WGSum" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/graph_construction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph_construction/graph_construction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="WGSum" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.graph_construction" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cb5570e-a0d6-4b54-a385-9f687abdc332" name="Default Changelist" comment="" />
+      <created>1639818541751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639818541751</updated>
+      <workItem from="1639818543374" duration="5092000" />
+      <workItem from="1640148922201" duration="67000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3440" y="337" key="#Deployment" timestamp="1639819808974">
+      <screen x="2560" y="-48" width="2560" height="1440" />
+    </state>
+    <state x="3440" y="337" key="#Deployment/0.0.2560.1440/2560.-48.2560.1440@2560.-48.2560.1440" timestamp="1639819808974" />
+    <state width="1259" height="416" key="GridCell.Tab.0.bottom" timestamp="1640147750541">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1259" height="416" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.-48.2560.1440@0.0.2560.1440" timestamp="1640147750541" />
+    <state width="2518" height="416" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.-48.2560.1440@2560.-48.2560.1440" timestamp="1639819796869" />
+    <state width="1259" height="416" key="GridCell.Tab.0.center" timestamp="1640147750538">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1259" height="416" key="GridCell.Tab.0.center/0.0.2560.1440/2560.-48.2560.1440@0.0.2560.1440" timestamp="1640147750538" />
+    <state width="2518" height="416" key="GridCell.Tab.0.center/0.0.2560.1440/2560.-48.2560.1440@2560.-48.2560.1440" timestamp="1639819796864" />
+    <state width="1259" height="416" key="GridCell.Tab.0.left" timestamp="1640147750536">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1259" height="416" key="GridCell.Tab.0.left/0.0.2560.1440/2560.-48.2560.1440@0.0.2560.1440" timestamp="1640147750536" />
+    <state width="2518" height="416" key="GridCell.Tab.0.left/0.0.2560.1440/2560.-48.2560.1440@2560.-48.2560.1440" timestamp="1639819796861" />
+    <state width="1259" height="416" key="GridCell.Tab.0.right" timestamp="1640147750540">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1259" height="416" key="GridCell.Tab.0.right/0.0.2560.1440/2560.-48.2560.1440@0.0.2560.1440" timestamp="1640147750540" />
+    <state width="2518" height="416" key="GridCell.Tab.0.right/0.0.2560.1440/2560.-48.2560.1440@2560.-48.2560.1440" timestamp="1639819796866" />
+    <state x="3349" y="311" key="SettingsEditor" timestamp="1639819537362">
+      <screen x="2560" y="-48" width="2560" height="1440" />
+    </state>
+    <state x="3349" y="311" key="SettingsEditor/0.0.2560.1440/2560.-48.2560.1440@2560.-48.2560.1440" timestamp="1639819537362" />
+    <state x="981" y="475" width="598" height="490" key="find.popup" timestamp="1639823408588">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="981" y="475" width="598" height="490" key="find.popup/0.0.2560.1440/2560.-48.2560.1440@0.0.2560.1440" timestamp="1639823408588" />
+    <state x="3747" y="409" key="ftp.server.browser" timestamp="1639819807050">
+      <screen x="2560" y="-48" width="2560" height="1440" />
+    </state>
+    <state x="3747" y="409" key="ftp.server.browser/0.0.2560.1440/2560.-48.2560.1440@2560.-48.2560.1440" timestamp="1639819807050" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WGSum$graph_construction.coverage" NAME="graph_construction Coverage Results" MODIFIED="1639819540019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/graph_construction" />
+  </component>
+</project>
