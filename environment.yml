@@ -1,0 +1,18 @@
+name: wgsum
+channels:
+  - pytorch
+  - conda-forge
+  - pyg
+  - defaults
+dependencies:
+  - python=3.8.13
+  - pip
+  - pytorch=1.8.0
+  - cudatoolkit=11.1
+  - pyg=2.0.1
+  - pip:
+    - multiprocess==0.70.9
+    - pyrouge==0.1.3
+    - pytorch-transformers==1.2.0
+    - tensorboardX==2.4
+    - tensorboard==2.6.0
