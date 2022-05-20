@@ -23,6 +23,24 @@ def str2bool(v):
         raise argparse.ArgumentTypeError('Boolean value expected.')
 
 
+import random
+
+import numpy as np
+import torch
+
+
+def seed_everything(seed: int):
+    r"""Sets the seed for generating random numbers in PyTorch, numpy and
+    Python.
+
+    Args:
+        seed (int): The desired seed.
+    """
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+
 
 
 if __name__ == '__main__':
@@ -116,6 +134,8 @@ if __name__ == '__main__':
     init_logger(args.log_file)
     device = "cpu" if args.visible_gpus == '-1' else "cuda"
     device_id = 0 if device == "cuda" else -1
+
+    seed_everything(args.seed)
 
     if (args.task == 'abs'):
         if (args.mode == 'train'):
