@@ -135,8 +135,6 @@ if __name__ == '__main__':
     device = "cpu" if args.visible_gpus == '-1' else "cuda"
     device_id = 0 if device == "cuda" else -1
 
-    seed_everything(args.seed)
-
     if (args.task == 'abs'):
         if (args.mode == 'train'):
             train_abs(args, device_id)
@@ -147,6 +145,8 @@ if __name__ == '__main__':
         elif (args.mode == 'oracle'):
             baseline(args, cal_oracle=True)
         if (args.mode == 'test'):
+            seed_everything(args.seed)
+            
             cp = args.test_from
             try:
                 step = int(cp.split('.')[-2].split('_')[-1])
